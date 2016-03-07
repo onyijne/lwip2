@@ -12,10 +12,10 @@
     "library"
   ],
   "license": "MIT",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "lib/index.js",
   "scripts": {
-    "install": "scripts/install.js",
+    "install": "node scripts/install.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Ionică Bizău <bizauionica@gmail.com> (http://ionicabizau.net)",
