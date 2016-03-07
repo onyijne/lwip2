@@ -15,20 +15,15 @@ $ npm i --save lwip2
 
 const lwip2 = require("lwip2");
 
-console.log(lwip2());
+lwip2.open("foo", err => {
+    console.log(err);
+    // In case the lwip package was not installed or failed to be compiled.
+    // =>
+    // { [Error: Failed to load lwip. Use GraphicsMagick instead.]
+    //   reason: { [Error: Cannot find module 'lwip'] code: 'MODULE_NOT_FOUND' },
+    //   code: 'CANNOT_LOAD_LWIP' }
+});
 ```
-
-## Documentation
-
-### `lwip2(a, b)`
-A friendlier wrapper around the lwip library.
-
-#### Params
-- **Number** `a`: Param descrpition.
-- **Number** `b`: Param descrpition.
-
-#### Return
-- **Number** Return description.
 
 ## How to contribute
 Have an idea? Found a bug? See [how to contribute][contributing].
