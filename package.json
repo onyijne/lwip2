@@ -1,0 +1,29 @@
+{
+  "name": "lwip2",
+  "description": "A friendlier wrapper around the lwip library.",
+  "keywords": [
+    "lwip2",
+    "a",
+    "friendlier",
+    "wrapper",
+    "around",
+    "the",
+    "lwip",
+    "library"
+  ],
+  "license": "MIT",
+  "version": "1.0.0",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ionică Bizău <bizauionica@gmail.com> (http://ionicabizau.net)",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/IonicaBizau/lwip2.git"
+  },
+  "bugs": {
+    "url": "https://github.com/IonicaBizau/lwip2/issues"
+  },
+  "homepage": "https://github.com/IonicaBizau/lwip2#readme"
+}
