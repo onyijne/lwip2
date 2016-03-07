@@ -15,6 +15,7 @@
   "version": "1.0.0",
   "main": "lib/index.js",
   "scripts": {
+    "install": "scripts/install.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Ionică Bizău <bizauionica@gmail.com> (http://ionicabizau.net)",
@@ -25,5 +26,9 @@
   "bugs": {
     "url": "https://github.com/IonicaBizau/lwip2/issues"
   },
-  "homepage": "https://github.com/IonicaBizau/lwip2#readme"
+  "homepage": "https://github.com/IonicaBizau/lwip2#readme",
+  "dependencies": {
+    "err": "^1.1.1",
+    "gm-installed": "^1.0.0"
+  }
 }
