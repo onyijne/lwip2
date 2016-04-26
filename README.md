@@ -1,18 +1,20 @@
+
 # lwip2 [![PayPal](https://img.shields.io/badge/%24-paypal-f39c12.svg)][paypal-donations] [![Version](https://img.shields.io/npm/v/lwip2.svg)](https://www.npmjs.com/package/lwip2) [![Downloads](https://img.shields.io/npm/dt/lwip2.svg)](https://www.npmjs.com/package/lwip2) [![Get help on Codementor](https://cdn.codementor.io/badges/get_help_github.svg)](https://www.codementor.io/johnnyb?utm_source=github&utm_medium=button&utm_term=johnnyb&utm_campaign=github)
 
 > A friendlier wrapper around the lwip library.
 
-## Installation
+## :cloud: Installation
 
 ```sh
 $ npm i --save lwip2
 ```
 
-## Example
+
+## :clipboard: Example
+
+
 
 ```js
-"use strict";
-
 const lwip2 = require("lwip2");
 
 lwip2.open("foo", err => {
@@ -25,13 +27,16 @@ lwip2.open("foo", err => {
 });
 ```
 
-## How to contribute
+## :yum: How to contribute
 Have an idea? Found a bug? See [how to contribute][contributing].
 
-## Where is this library used?
+## :dizzy: Where is this library used?
 If you are using this library in one of your projects, add it in this list. :sparkles:
 
-## License
+
+ - [`lwipify`](https://github.com/IonicaBizau/lwipify#readme)—Convert images in lwip objects.
+
+## :scroll: License
 
 [MIT][license] © [Ionică Bizău][website]
 
