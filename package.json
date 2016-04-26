@@ -37,6 +37,7 @@
     "lib/",
     "dist/",
     "src/",
+    "scripts/",
     "resources/",
     "menu/",
     "cli.js",
