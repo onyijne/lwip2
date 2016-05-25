@@ -12,7 +12,7 @@
     "library"
   ],
   "license": "MIT",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "main": "lib/index.js",
   "scripts": {
     "install": "node scripts/install.js",
@@ -37,9 +37,9 @@
     "lib/",
     "dist/",
     "src/",
-    "scripts/",
     "resources/",
     "menu/",
+    "scripts/",
     "cli.js",
     "index.js"
   ]
