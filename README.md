@@ -17,9 +17,9 @@ $ npm i --save lwip2
 
 
 ```js
-const lwip2 = require("lwip2");
+var lwip2 = require("lwip2");
 
-lwip2.open("foo", err => {
+lwip2.open("foo", function (err) {
     console.log(err);
     // In case the lwip package was not installed or failed to be compiled.
     // =>
