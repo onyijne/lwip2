@@ -1,8 +1,8 @@
 "use strict";
 
-const lwip2 = require("../lib");
+var lwip2 = require("../lib");
 
-lwip2.open("foo", err => {
+lwip2.open("foo", function (err) {
     console.log(err);
     // In case the lwip package was not installed or failed to be compiled.
     // =>
